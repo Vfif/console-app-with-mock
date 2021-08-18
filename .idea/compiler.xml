@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="validator" />
         <module name="client" />
+        <module name="parser" />
         <module name="service" />
         <module name="dto" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="console-app-with-mock" target="1.5" />
       <module name="consoleApp" target="1.5" />
       <module name="dto" target="16" />
+      <module name="parser" target="16" />
       <module name="service" target="16" />
       <module name="validator" target="16" />
     </bytecodeTargetLevel>

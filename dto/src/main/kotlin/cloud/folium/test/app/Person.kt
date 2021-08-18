@@ -6,4 +6,7 @@ data class Person(
     val email: String,
     val phoneNumber: String,
     val passportId: String
-)
+) {
+
+    fun secureInfo() = this.copy(passportId = "*****")
+}
