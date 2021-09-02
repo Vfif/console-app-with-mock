@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="validator" />
-        <module name="client" />
-        <module name="parser" />
-        <module name="service" />
-        <module name="dto" />
-      </profile>
-    </annotationProcessing>
-    <bytecodeTargetLevel target="1.6">
-      <module name="client" target="16" />
-      <module name="console-app-with-mock" target="1.5" />
-      <module name="consoleApp" target="1.5" />
-      <module name="dto" target="16" />
-      <module name="parser" target="16" />
-      <module name="service" target="16" />
-      <module name="validator" target="16" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>
