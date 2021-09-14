@@ -3,7 +3,7 @@ package cloud.folium.spring.recommendator;
 import cloud.folium.spring.annotation.InjectProperty;
 
 public class RecommendatorImpl implements Recommendator {
-    @ InjectProperty
+    @ InjectProperty("wisky")
     private String alcohol;
 
     @Override
